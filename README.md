@@ -1,0 +1,3 @@
+# Dagger2SimpleExample
+- Added the simple Dagger2 Example to understand the dependancy injection framework.
+-  Plan to add Data binding this example also... coming soon...
