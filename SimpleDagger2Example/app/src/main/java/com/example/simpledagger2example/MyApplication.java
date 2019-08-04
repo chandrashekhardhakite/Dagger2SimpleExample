@@ -21,6 +21,10 @@ public class MyApplication extends Application {
     public MyComponent getMyComponent() {
         return myComponent;
     }
+    public void setMyComponent(MyComponent myComponent) {
+        this.myComponent = myComponent;
+    }
+
 
     private MyComponent createMyComponent() {
         return DaggerMyComponent.builder().myModule(new MyModule()).build();
